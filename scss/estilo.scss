@@ -9,6 +9,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
     .header{
         width: auto;
         background-color: #EA5C2B;
@@ -22,29 +23,65 @@ body{
                 color: black;
             }
         }
-    }
-    .textoInicio{
-        h2{
-            border-bottom: solid black 2px;
-            border-top: solid black 2px;
-            width: 100%;
-            color: black;
-            background-color: #FF7F3F;
-            font-size: 23px;
-            padding: 10px;
-            text-align: center;
-        }
-        p{
-            border-radius: 24px;
-            border: solid black 2px;
-            margin :40px;
-            padding: 8px;
-            color: black;
-            background-color: #F6D860;
-            font-size: 1.1em;
-            text-align: center ;
+        nav a:hover{
+            color:  white;
         }
     }
+    // .textoInicio{
+    //     h2{
+    //         border-bottom: solid black 2px;
+    //         border-top: solid black 2px;
+    //         width: 100%;
+    //         color: black;
+    //         background-color: #FF7F3F;
+    //         font-size: 23px;
+    //         padding: 10px;
+    //         text-align: center;
+    //     }
+    //     p{
+    //         border-radius: 24px;
+    //         border: solid black 2px;
+    //         margin :40px;
+    //         padding: 8px;
+    //         color: black;
+    //         background-color: #F6D860;
+    //         font-size: 1.1em;
+    //         text-align: center ;
+    //     }
+    // }
+    
+    h2{
+        border-bottom: solid black 2px;
+        border-top: solid black 2px;
+        width: 100%;
+        color: black;
+        background-color: #FF7F3F;
+        font-size: 2rem;
+        padding: 10px;
+        text-align: center;
+    }
+    p{
+        border-radius: 24px;
+        border: solid black 2px;
+        margin :40px;
+        padding: 8px;
+        color: black;
+        background-color: #F6D860;
+        font-size: 1.2rem;
+        text-align: center ;
+    }
+
+    .pedido{
+        background-image: url(/img/img-pagina/fondo-pedidos.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    .seccionPedido{
+        margin-bottom: 50px;
+    }
+
     footer{
         width: 100%;
         bottom: 0;
@@ -79,5 +116,5 @@ body{
             }
         }
     }
-} 
+
 
