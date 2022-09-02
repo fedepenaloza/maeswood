@@ -1,60 +1,85 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto</title>
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
 
-    <link  rel="stylesheet" href="./css/style.css">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto</title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="./css/estilo.css">
 </head>
+
 <body class="contacto">
   <header class="header">
     <nav class="navbar navbar-expand-md">
-        <div class="container-fluid align-content-center">
-            <div class="logo">
-        <img src="img/img-pagina/logo.png" alt="logo de empresa" width="50" height="40">
-        <h1>MAESWOOD</h1>
-    </div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse flex-row-reverse" id="navbarNavAltMarkup">
-            <div class="navbar-nav text-center">
-              <a class="nav-link" href="index.html">Inicio</a>
-              <a class="nav-link" href="empresa.html">Empresa</a>
-              <a class="nav-link" href="productos.html">Productos</a>
-              <a class="nav-link" href="pedido.html">Pedidos</a>
-              <a class="nav-link active text-uppercase fw-bold" href="contacto.html">Contactos</a>
-            </div>
+      <div class="container-fluid align-content-center">
+        <div class="logo">
+          <img src="img/img-pagina/logo.png" alt="logo de empresa" width="50" height="40">
+          <h1>MAESWOOD</h1>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse flex-row-reverse" id="navbarNavAltMarkup">
+          <div class="navbar-nav text-center">
+            <a class="nav-link" href="index.html">Inicio</a>
+            <a class="nav-link" href="empresa.html">Empresa</a>
+            <a class="nav-link" href="productos.html">Productos</a>
+            <a class="nav-link" href="pedido.html">Pedidos</a>
+            <a class="nav-link active text-uppercase fw-bold" href="contacto.html">Contactos</a>
           </div>
         </div>
-      </nav>
-</header>
-    <h2>Contactos</h2>
-    <section class="contactoSeccion">
+      </div>
+    </nav>
+  </header>
+  <h2>Contactos</h2>
+  <section class="contactoSeccion contaianer m-3">
+    <div class="row g-3 justify-content-around">
+      <div class="contactoSeccionDiv col-md-5 col-xl-5 p-2">
         <div class="mb-3 cajaContacto">
-            <label class="label">Apellido y Nombre</label>
-            <input type="text" class="formControl">
-          </div>
-          <div class="mb-3 cajaContacto">
-            <label class="label">Telefono/Celular</label>
-            <input type="text" class="formControl">
-          </div>
+          <label class="label">Apellido y Nombre</label>
+          <input type="text" class="formControl">
+        </div>
         <div class="mb-3 cajaContacto">
-            <label class="label">Email</label>
-            <input type="email" class="formControl">
-          </div>
-          <div class="mb-3 cajaContacto">
-            <label class="label">Comentario</label>
-            <textarea class="formControl" rows="4"></textarea>
-          </div>
-          <button class="boton" type="submit" >Enviar</button>
-    </section>
-    <footer>
-        Copy 2022 - Maeswood
-         </footer>
-         <script src="./js/bootstrap.bundle.min.js"></script>
+          <label class="label">Telefono/Celular</label>
+          <input type="text" class="formControl">
+        </div>
+        <div class="mb-3 cajaContacto">
+          <label class="label">Email</label>
+          <input type="email" class="formControl">
+        </div>
+        <div class="mb-3 cajaContacto">
+          <label class="label">Comentario</label>
+          <textarea class="formControl" rows="4"></textarea>
+        </div>
+        <button class="boton" type="submit">Enviar</button>
+      </div>
+
+      <div class="contactoSeccionDiv col-md-5 col-xl-5 p-2">
+        <hr />
+        <div class="mb-3 cajaContacto">Nuestra Oficinas</div>
+        <div class="mb-3 cajaContacto">Fournier 2503, Cordoba Capital X5010</div>
+        <hr />
+        <div class="mb-3 cajaContacto">fedepenaloza@hotmail.com</div>
+        <hr />
+        <div class="mb-3 cajaContacto">0351 - 399XXXX</div>
+        <div class="mb-3 mt-5 cajaContacto-redes d-flex justify-content-around">
+          <div class="redes"><a href="https://www.facebook.com/" target="_blank"><img
+              src="/img/img-pagina/402-facebook2.png" alt="facebook"></a></div>
+          <div class="redes"><a href="https://www.instagram.com/" target="_blank"><img
+                src="/img/img-pagina/403-instagram.png" alt="instragram"></a></div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <footer>
+    Copy 2022 - Maeswood
+  </footer>
+  <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>

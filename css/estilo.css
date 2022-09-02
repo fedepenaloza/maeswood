@@ -50,9 +50,26 @@ p {
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed; }
+  .pedido .seccionPedido {
+    margin-bottom: 50px; }
 
-.seccionPedido {
-  margin-bottom: 50px; }
+.contacto {
+  background-image: url(/img/img-pagina/fondo-contacto.jpg);
+  background-blend-mode: darken; }
+  .contacto .contactoSeccion {
+    display: flex;
+    flex-direction: column; }
+    .contacto .contactoSeccion .contactoSeccionDiv {
+      background-color: #f7e396;
+      border-radius: 8px;
+      border: solid black 1px; }
+      .contacto .contactoSeccion .contactoSeccionDiv .cajaContacto {
+        font-size: 1.2rem;
+        text-align: center;
+        display: flex;
+        flex-direction: column; }
+        .contacto .contactoSeccion .contactoSeccionDiv .cajaContacto .cajaContacto-redes {
+          justify-content: space-around; }
 
 footer {
   width: 100%;
