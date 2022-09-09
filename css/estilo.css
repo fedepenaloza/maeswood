@@ -3,16 +3,10 @@
   padding: 0;
   box-sizing: border-box; }
 
-body {
-  height: 100vh;
-  background-image: url(/img/img-pagina/banner-inicio.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center; }
-
 .header {
   width: auto;
-  background-color: #EA5C2B; }
+  background-color: #EA5C2B;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif; }
   .header .logo {
     display: flex;
     flex-direction: row;
@@ -32,7 +26,13 @@ h2 {
   background-color: #FF7F3F;
   font-size: 2rem;
   padding: 10px;
-  text-align: center; }
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif; }
+
+h3 {
+  color: black;
+  font-size: 1.1rem;
+  padding: 5px; }
 
 p {
   border-radius: 24px;
@@ -42,41 +42,22 @@ p {
   color: black;
   background-color: #F6D860;
   font-size: 1.2rem;
-  text-align: center; }
-
-.pedido {
-  background-image: url(/img/img-pagina/fondo-pedidos.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed; }
-  .pedido .seccionPedido {
-    margin-bottom: 50px; }
-
-.contacto {
-  background-image: url(/img/img-pagina/fondo-contacto.jpg);
-  background-blend-mode: darken; }
-  .contacto .contactoSeccion {
-    display: flex;
-    flex-direction: column; }
-    .contacto .contactoSeccion .contactoSeccionDiv {
-      background-color: #f7e396;
-      border-radius: 8px;
-      border: solid black 1px; }
-      .contacto .contactoSeccion .contactoSeccionDiv .cajaContacto {
-        font-size: 1.2rem;
-        text-align: center;
-        display: flex;
-        flex-direction: column; }
-        .contacto .contactoSeccion .contactoSeccionDiv .cajaContacto .cajaContacto-redes {
-          justify-content: space-around; }
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif; }
 
 footer {
   width: 100%;
   bottom: 0;
   position: fixed;
   text-align: center;
-  background-color: #95CD41; }
+  background-color: #95CD41;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif; }
+
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed; }
 
 @media screen and (min-width: 768px) {
   .header .logo {
@@ -93,3 +74,49 @@ footer {
       font-size: 40px; }
   .textoInicio p {
     width: 50%; } }
+
+.inicio {
+  background-image: url(/img/img-pagina/banner-inicio.jpg); }
+
+.empresa {
+  width: 100%;
+  background-image: url(/img/img-pagina/banner-empresa.jpg);
+  justify-content: center;
+  align-content: center; }
+  .empresa .empresaSeccion {
+    margin: 20px; }
+    .empresa .empresaSeccion .empresaTexto p {
+      border-radius: 20px; }
+    .empresa .empresaSeccion .empresaCarrusel {
+      margin: 10px; }
+
+.pedido {
+  background-image: url(/img/img-pagina/fondo-pedidos.jpg); }
+  .pedido .seccionPedido {
+    margin-bottom: 50px; }
+
+.productos {
+  background: linear-gradient(#f3e2d5, #5f514b); }
+  .productos .card-body ul {
+    list-style: none; }
+    .productos .card-body ul li {
+      text-align: start;
+      font-size: 1rem;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif; }
+
+.contacto {
+  background-image: url(/img/img-pagina/fondo-contacto.jpg); }
+  .contacto .contactoSeccion {
+    display: flex;
+    flex-direction: column; }
+    .contacto .contactoSeccion .contactoSeccionDiv {
+      background-color: #f7e396;
+      border-radius: 8px;
+      border: solid black 1px; }
+      .contacto .contactoSeccion .contactoSeccionDiv .cajaContacto {
+        font-size: 1.2rem;
+        text-align: center;
+        display: flex;
+        flex-direction: column; }
+        .contacto .contactoSeccion .contactoSeccionDiv .cajaContacto .cajaContacto-redes {
+          justify-content: space-around; }

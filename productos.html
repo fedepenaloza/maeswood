@@ -1,131 +1,194 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Productos</title>
+    <!--BOOTSTRAP-->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
 
-    <link  rel="stylesheet" href="./css/style.css">
+    <!--MI ESTILO-->
+    <link rel="stylesheet" href="./css/estilo.css">
 </head>
+
 <body class="productos">
     <header class="header">
         <nav class="navbar navbar-expand-md">
             <div class="container-fluid align-content-center">
                 <div class="logo">
-            <img src="img/img-pagina/logo.png" alt="logo de empresa" width="50" height="40">
-            <h1>MAESWOOD</h1>
-        </div>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse flex-row-reverse" id="navbarNavAltMarkup">
-                <div class="navbar-nav text-center">
-                  <a class="nav-link" href="index.html">Inicio</a>
-                  <a class="nav-link" href="empresa.html">Empresa</a>
-                  <a class="nav-link  active text-uppercase fw-bold" href="productos.html">Productos</a>
-                  <a class="nav-link" href="pedido.html">Pedidos</a>
-                  <a class="nav-link" href="contacto.html">Contactos</a>
+                    <img src="img/img-pagina/logo.png" alt="logo de empresa" width="50" height="40">
+                    <h1>MAESWOOD</h1>
                 </div>
-              </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse flex-row-reverse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav text-center">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                        <a class="nav-link" href="empresa.html">Empresa</a>
+                        <a class="nav-link  active text-uppercase fw-bold" href="productos.html">Productos</a>
+                        <a class="nav-link" href="pedido.html">Pedidos</a>
+                        <a class="nav-link" href="contacto.html">Contactos</a>
+                    </div>
+                </div>
             </div>
-          </nav>
+        </nav>
     </header>
 
-    <section class="contenedor">
-            <h2>Productos</h2>
-     <div class="grid">
-            <div class="caja">
-        
-                <img src="./img/img-productos/clavadera_eucalipto.png" alt="clavadera_eucalipto">
-                <h3>Clavaderas</h3>
-                <ul>
-                <li>Espesores: 10cm/20cm</li>
-                <li>Ancho: 10cm/20cm</li>
-                <li>Largo: Varios hasta un max de 600cm</li>
-            </ul>
-        </div>
-        <div class="caja">
-            <img src="./img/img-productos/viga madera dura.jpg" alt="">
-            <h3>VIGA MADERA DURA</h3>
-            <ul>
-                <li>Espesores: 10cm/20cm</li>
-                <li>Ancho: 10cm/20cm</li>
-                <li>Largo: Varios hasta un max de 600cm</li>
-            </ul>
-        </div>
-        <div class="caja">
-            <img src="./img/img-productos/vigas-multilaminadas.png" alt="">
-            <h3>VIGAS MULTILAMINADAS</h3>
-            <ul>
-                <li>Espesores: 10cm/20cm</li>
-                <li>Ancho: 10cm/20cm</li>
-                <li>Largo: Varios hasta un max de 600cm</li>
-                <li>Pack de 10 unidades</li>
-            </ul>
-        </div>
 
-        <div class="caja">
-            <img src="./img/img-productos/machimbre.png" alt="">
-            <h3>Machimbre</h3>
-            <ul>
-                <li>Espesores: 1cm</li>
-                <li>Ancho: 15cm</li>
-                <li>Largo: 150cm</li>
-                <li>Pack de 20 unidades</li>
-                
-            </ul>
-        </div>
+    <h2>Productos</h2>
+    <div class="container">
+        <div class="row mb-5 justify-content-center align-items-center g-5">
 
-        <div class="caja">
-            <img src="./img/img-productos/tablero_grandis.jpg" alt="">
-            <h3>TABLERO GRANDIS</h3>
-            <ul>
-                <li>Espesores: 1 y 2 cm</li>
-                <li>Ancho: 100cm</li>
-                <li>Largo: 100cm</li>
-            </ul>
-        </div>
+            <div class="caja col-sm-12 col-md-6 col-xl-4 text-center">
+                <div class="card">
+                    <img src="./img/img-productos/clavadera_eucalipto.jpg" class="card-img-top"
+                        alt="clavadera_eucalipto">
+                    <div class="card-body">
+                        <h3>CLAVADERAS</h3>
+                        <ul>
+                            <li>Espesores: 10cm/20cm</li>
+                            <li>Ancho: 10cm/20cm</li>
+                            <li>Largo: Varios hasta un max de 600cm</li>
+                            <li></li>
+                        </ul>
+                        <a href="#" class="btn btn-primary">Presupuestar</a>
+                    </div>
+                </div>
+            </div>
 
-        <div class="caja">
-            <img src="./img/img-productos/tablero_guruy.jpg" alt="">
-            <h3>TABLERO GURUY</h3>
-            <ul>
-                <li>Espesores: 1 y 2 cm</li>
-                <li>Ancho: 100cm</li>
-                <li>Largo: 100cm</li>
-            </ul>
-        </div>
-        <div class="caja">
-            <img src="./img/img-productos/tablero_multicolor.png" alt="">
-            <h3>TABLERO MULTICOLOR</h3>
-            <ul>
-                <li>Espesores: 1 y 2 cm</li>
-                <li>Ancho: 100cm</li>
-                <li>Largo: 100cm</li>
-            </ul>
-        </div>
-        
-        <div class="caja">
-            <img src="./img/img-productos/tablero_pino.jpg" alt="">
-            <h3>TABLERO PINO</h3>
-            <ul>
-                <li>Espesores: 1 y 2 cm</li>
-                <li>Ancho: 100cm</li>
-                <li>Largo: 100cm</li>
-            </ul>
-        </div>
+            <div class="caja col-sm-12 col-md-6 col-xl-4 text-center">
+                <div class="card">
+                    <img src="./img/img-productos/viga-madera-dura.jpg" class="card-img-top" alt="viga de madera dura">
+                    <div class="card-body">
+                        <h3>VIGA MADERA DURA</h3>
+                        <ul>
+                            <li>Espesores: 10cm/20cm</li>
+                            <li>Ancho: 10cm/20cm</li>
+                            <li>Largo: Varios hasta un max de 600cm</li>
+                        </ul>
+                        <a href="#" class="btn btn-primary">Presupuestar</a>
+                    </div>
+                </div>
+            </div>
 
-     </div>
+            <div class="caja col-sm-12 col-md-6 col-xl-4 text-center">
+                <div class="card">
+                    <img src="./img/img-productos/vigas-multilaminadas.jpg" class="card-img-top"
+                        alt="vigas multilaminadas">
+                    <div class="card-body">
+                        <h3>PACK VIGAS LAMINADA</h3>
+                        <ul>
+                            <li>Espesores: 10cm/20cm</li>
+                            <li>Ancho: 10cm/20cm</li>
+                            <li>Largo: Varios hasta un max de 600cm</li>
     
+                        </ul>
+                        <a href="#" class="btn btn-primary">Presupuestar</a>
+                    </div>
+                </div>
+            </div>
 
+            <div class="caja col-sm-12 col-md-6 col-xl-4 text-center">
+                <div class="card">
+                    <img src="./img/img-productos/machimbre.jpg" class="card-img-top" alt="machimbre">
+                    <div class="card-body">
+                        <h3>PACK MACHIMBRE</h3>
+                        <ul>
+                            <li>Espesores: 1cm</li>
+                            <li>Ancho: 15cm</li>
+                            <li>Largo: 150cm</li>
 
-   </section>
+                        </ul>
+                        <a href="#" class="btn btn-primary">Presupuestar</a>
+                    </div>
+                </div>
+            </div>
 
+            <div class="caja col-sm-12 col-md-6 col-xl-4 text-center">
+                <div class="card">
+                    <img src="./img/img-productos/tablero_grandis.jpg" class="card-img-top" alt="TABLERO GRANDIS">
+                    <div class="card-body">
+                        <h3>TABLERO GRANDIS</h3>
+                        <ul>
+                            <li>Espesores: 1 y 2 cm</li>
+                            <li>Ancho: 100cm</li>
+                            <li>Largo: 100cm</li>
+                        </ul>
+                        <a href="#" class="btn btn-primary">Presupuestar</a>
+                    </div>
+                </div>
+            </div>
 
+            <div class="caja col-sm-12 col-md-6 col-xl-4 text-center">
+                <div class="card">
+                    <img src="./img/img-productos/tablero_guruy.jpg" class="card-img-top" alt="TABLERO GURUY">
+                    <div class="card-body">
+                        <h3>TABLERO GURUY</h3>
+                        <ul>
+                            <li>Espesores: 1 y 2 cm</li>
+                            <li>Ancho: 100cm</li>
+                            <li>Largo: 100cm</li>
+                        </ul>
+                        <a href="#" class="btn btn-primary">Presupuestar</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="caja col-sm-12 col-md-6 col-xl-4 text-center">
+                <div class="card">
+                    <img src="./img/img-productos/tablero_multicolor.jpg" class="card-img-top" alt="TABLERO MULTICOLOR">
+                    <div class="card-body">
+                        <h3>TABLERO MULTICOLOR</h3>
+                        <ul>
+                            <li>Espesores: 1 y 2 cm</li>
+                            <li>Ancho: 100cm</li>
+                            <li>Largo: 100cm</li>
+                        </ul>
+                        <a href="#" class="btn btn-primary">Presupuestar</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="caja col-sm-12 col-md-6 col-xl-4 text-center">
+                <div class="card">
+                    <img src="./img/img-productos/tablero_pino.jpg" class="card-img-top" alt="TABLERO PINO">
+                    <div class="card-body">
+                        <h3>TABLERO PINO</h3>
+                        <ul>
+                            <li>Espesores: 1 y 2 cm</li>
+                            <li>Ancho: 100cm</li>
+                            <li>Largo: 100cm</li>
+                        </ul>
+                        <a href="#" class="btn btn-primary">Presupuestar</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="caja col-sm-12 col-md-6 col-xl-4 text-center">
+                <div class="card">
+                    <img src="./img/img-productos/tablero_pino.jpg" class="card-img-top" alt="tablero de pino">
+                    <div class="card-body">
+                        <h3 class="card-title">TABLERO DE PINO</h3>
+                        <ul>
+                            <li>Espesores: 1 y 2 cm</li>
+                            <li>Ancho: 100cm</li>
+                            <li>Largo: 100cm</li>
+                        </ul>
+                        <a href="#" class="btn btn-primary">Presupuestar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <footer>
         Copy 2022 - Maeswood
-         </footer>
+    </footer>
 </body>
+
 </html>
