@@ -1,7 +1,8 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; }
+.icono--instagram {
+  background-color: red; }
+
+.icono--facebook {
+  background-color: blue; }
 
 .header {
   width: auto;
@@ -18,31 +19,39 @@
   .header nav a:hover {
     color: white; }
 
+.icono--instagram {
+  background-color: red; }
+
+.icono--facebook {
+  background-color: blue; }
+
 h2 {
-  border-bottom: solid black 2px;
-  border-top: solid black 2px;
-  width: 100%;
   color: black;
   background-color: #FF7F3F;
   font-size: 2rem;
-  padding: 10px;
   text-align: center;
+  border-bottom: solid black 2px;
+  border-top: solid black 2px;
+  width: 100%;
+  padding: 10px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif; }
 
 h3 {
   color: black;
-  font-size: 1.1rem;
+  background-color: #FFF;
+  font-size: 1.2rem;
+  text-align: center;
   padding: 5px; }
 
 p {
-  border-radius: 24px;
-  border: solid black 2px;
-  margin: 40px;
-  padding: 8px;
   color: black;
   background-color: #F6D860;
   font-size: 1.2rem;
   text-align: center;
+  border-radius: 24px;
+  border: solid black 2px;
+  margin: 40px;
+  padding: 8px;
   font-family: Arial, Helvetica, sans-serif; }
 
 footer {
@@ -74,6 +83,11 @@ body {
       font-size: 40px; }
   .textoInicio p {
     width: 50%; } }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
 .inicio {
   background-image: url(/img/img-pagina/banner-inicio.jpg); }
