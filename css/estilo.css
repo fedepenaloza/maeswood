@@ -133,5 +133,4 @@ body {
         display: flex;
         flex-direction: column; }
         .contacto .contactoSeccion .contactoSeccionDiv .cajaContacto .cajaContacto-redes {
-          border-radius: 22px;
           justify-content: space-around; }
